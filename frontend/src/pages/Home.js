@@ -1,5 +1,5 @@
 import React from "react";
-import WeatherAPI from "../utilities/WeatherAPI";
+import WeatherAPI from "../utilities/WeatherAPI/WeatherAPI";
 
 export default function Home (){
     
