@@ -19,6 +19,7 @@ body {
   align-items: center;
   position: absolute;
   top:0;
+  width: 100%;
   
 }
 
@@ -39,9 +40,15 @@ body {
     padding: .25rem;
 
 }
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+
+}
 
 .nav li.active{
-    background-color: blue;
+    background-color: gray;
 }
 .nav li:hover{
     background-color: black;
