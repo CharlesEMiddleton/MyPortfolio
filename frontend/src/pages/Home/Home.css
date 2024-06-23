@@ -1,0 +1,8 @@
+.baseContainer{
+    display: flex;
+    background-color: rgb(209, 205, 205);
+    border-radius: 2%;
+    border: 1px solid black;
+    width: 25%;
+    padding:5%;
+}
