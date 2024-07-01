@@ -1,6 +1,13 @@
 .weatherContainer{
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+=======
+    
+    border: .5rem solid black;
+ 
+    
+>>>>>>> 2913df3 (improvements)
 }
