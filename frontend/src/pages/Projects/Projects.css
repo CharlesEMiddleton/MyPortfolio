@@ -1,0 +1,8 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.start :hover{
+    color: rgb(230, 11, 11);
+    font-size: large;
+}
