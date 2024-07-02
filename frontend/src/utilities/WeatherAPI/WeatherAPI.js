@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { API_KEY } from '../URLs';
 import { WeatherClass } from './WeatherAPIClasses';
-import './WeatherAPI.css';
 export default function WeatherAPI(){
     const [weather, setWeather] = useState(new WeatherClass());
     var prompt = `I live in ${weather.location.name},  ${weather.location.region} in the ${weather.location.country} where it is currently ${weather.current.temp_f} degrees but it feels like ${weather.current.feelslike_f}!`;
@@ -16,7 +15,7 @@ export default function WeatherAPI(){
     }, []);
 
     return(
-        <div className='weatherContainer'>
+        <div>
         <h1>If you were wondering hows the weather where I am, here ya go!</h1>
         {weather && (
             <div>
