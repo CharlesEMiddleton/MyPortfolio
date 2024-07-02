@@ -1,6 +1,7 @@
 import React from "react";
 import WeatherAPI from "../../utilities/WeatherAPI/WeatherAPI";
 import JokeAPI from "../../utilities/JokeAPI/JokeAPI";
+import SlideShow from "../../utilities/SlideShow/SlideShow";
 import './Home.css'
 
 export default function Home (){
@@ -14,6 +15,9 @@ export default function Home (){
         </div>
         <div className = "box2 highlight" >
         <WeatherAPI />
+        </div>
+        <div>
+        <SlideShow />
         </div>
         
         <div className = "box3 highlight">
