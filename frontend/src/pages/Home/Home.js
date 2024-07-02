@@ -8,16 +8,15 @@ export default function Home (){
     return(
         <div className="baseContainer">  
           
-      <div className="big-arrow-down"></div>
-     
+
         <div className = "box1">
         <h1>Hello and welcome to my page</h1>
         </div>
-        <div className = "box2" >
+        <div className = "box2 highlight" >
         <WeatherAPI />
         </div>
         
-        <div className = "box3">
+        <div className = "box3 highlight">
         <JokeAPI />
         </div>
 

@@ -36,6 +36,20 @@ grid-row: 1/1;
 
    }
 
+   .highlight {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+  
+    border-radius: 4px;
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .highlight:hover {
+    transform: translateY(-10px);
+    background-color: #45a049;
+  }
 
   @keyframes moveInCircle {
     from {
